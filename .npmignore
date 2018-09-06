@@ -1,0 +1,52 @@
+
+### Project
+demo/
+test/
+doc/
+
+### Build
+build/
+dist/
+out/
+gen/
+
+### Node
+node_modules/
+npm-debug.log*
+.npm
+.node_repl_history
+jspm_packages/
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+bower_components/
+*.tgz
+typings/
+.tscache
+.awcache/
+
+### Common
+logs/
+*.log
+storage/
+*.secret/
+*.secret.*
+tmp/
+*.tmp
+
+### IDEs
+.project/
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+.idea/
+
+### OS
+*.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+*.lnk
+*~
+.Trash-*

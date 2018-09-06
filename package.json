@@ -1,0 +1,45 @@
+{
+  "name": "clearb",
+  "version": "0.1.0",
+  "description": "Script to clear builds by config file",
+  "keywords": [
+    "script",
+    "util",
+    "clear",
+    "build"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "typings": "src/index",
+  "bin": {
+    "clearb": "bin/clearb"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "npm run test:jest",
+    "test:tslint": "tslint **/*.ts -e '**/*.d.ts' -t verbose"
+  },
+  "author": {
+    "name": "Albert Cuartiella",
+    "email": "albert.cuartiella@flykube.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuarti/clearb.git"
+  },
+  "homepage": "https://github.com/cuarti/clearb#readme",
+  "bugs": {
+    "url": "https://github.com/cuarti/clearb/issues"
+  },
+  "dependencies": {
+    "glob": "^7.1.3"
+  },
+  "devDependencies": {
+    "@types/glob": "^5.0.35",
+    "@types/node": "^10.9.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
